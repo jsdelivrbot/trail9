@@ -1,0 +1,45 @@
+---
+layout: base
+title: Apollo - Color
+---
+{% assign data = site.data.color %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include detailed-content-header.html data=data.detailed-content-header %}
+
+  <div class="content pad-100"></div>
+
+  {% include lego-module-head.html data=data.brand-colors-head %}
+
+  <div class="content pad-10"></div>
+
+  {% include color-swatch.html data=data.brand-colors %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.support-colors-head %}
+
+  <div class="content pad-10"></div>
+
+  {% include color-swatch.html data=data.support-colors %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.functional-colors-head %}
+
+  <div class="content pad-10"></div>
+
+  {% include color-swatch.html data=data.functional-colors %}
+
+  <div class="content pad-100"></div>
+
+  {% include section-content.html data=data.download-header %}
+
+  {% include downloads.html data=data.downloads %}
+
+  {% include footer.html %}
+
+</div>

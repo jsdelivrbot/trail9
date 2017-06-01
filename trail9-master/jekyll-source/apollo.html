@@ -1,0 +1,24 @@
+---
+layout: base
+title: Apollo Philosophy
+---
+
+{% assign data = site.data.design %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include section-header.html data=data.section-header %}
+
+  <div class="content pad-100"></div>
+
+  {% include section-content.html data=data.section-content %}
+
+  <div class="content pad-50"></div>
+
+  {% include children-cards.html data=site.data.design.children-cards %}
+
+  {% include footer.html %}
+
+</div>

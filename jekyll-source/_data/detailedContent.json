@@ -1,0 +1,155 @@
+{
+  "left-panel":
+    {
+      "bgImg": "/img/color/colo-bg.jpg",
+      "bgImgAlt": "Random UnSplash Img",
+      "headerLink": "/",
+      "siteSection": "Site Section",
+      "pageTitle": "Detailed Content",
+      "pageSummary": "There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.",
+      "prevLink": "/subsection",
+      "prevPage": "Subsection",
+      "nextLink": "/section",
+      "nextPage": "Section"
+    },
+  "detailed-content-header" :
+    {
+      "headline": "Detailed Content",
+      "tagline": "Detailed Content Tagline",
+      "summary": "There is a very subtle lighting source applied to the Apollo environment. Its default position is in the upper left and may move across the arc to the upper right in specialty transitions.",
+      "headerImg": "https://source.unsplash.com/random/219x325",
+      "headerImgAlt": "Random Unsplash Img",
+      "contentList": [
+        {
+          "id": "content1",
+          "name": "Content One"
+        },
+        {
+          "id": "content2",
+          "name": "Content Two"
+        },
+        {
+          "id": "content3",
+          "name": "Content Three"
+        },
+        {
+          "id": "content4",
+          "name": "Content Four"
+        }
+      ]
+    },
+  "lego-quote-module":
+    {
+      "textContent": "“This is a Lego Quote Module. It can be used as a lego piece on any page like all other module examples on the detailed-content page.”",
+      "quoteImg": "https://source.unsplash.com/random/800x500",
+      "quoteImgAlt": "Random Unsplash Img"
+    },
+  "lego-image-right":
+    {
+      "prop":
+        [
+          {
+            "headline": "Lego Image Right",
+            "content": "<h3>The core material is translucent. It feels like it is in a 3D environment. It floats along the x and y-axis, but has little to no thickness. Objects should have a sense of weightlessness and should float through space with zero friction.</h3>",
+            "imgSrc": "https://source.unsplash.com/random/499x499",
+            "altImg": "Random Unsplash Img"
+          }
+        ]
+    },
+  "lego-module-head":
+    {
+      "title": "Lego Module Head",
+      "summary": "The core material is translucent. It feels like it is in a 3D environment. It floats along the x and y-axis, but has little to no thickness. Objects should have a sense of weightlessness and should float through space with zero friction."
+    },
+  "lego-module-head-img":
+    {
+      "title": "Lego Module Head with Image",
+      "summary": "The core material is translucent. It feels like it is in a 3D environment. It floats along the x and y-axis, but has little to no thickness. Objects should have a sense of weightlessness and should float through space with zero friction.",
+      "img": "https://source.unsplash.com/random/1501x460",
+      "imgAlt": "Random Unsplash Img"
+    },
+  "lego-block-3":
+    {
+      "block":
+      [
+        {
+          "img": "https://source.unsplash.com/random/500x500",
+          "imgAlt": "Random Unsplash Img",
+          "title": "Lego Block 3",
+          "summary": "The core material is translucent. It feels like it is in a 3D environment."
+        },
+        {
+          "img": "https://source.unsplash.com/random/501x500",
+          "imgAlt": "Random Unsplash Img",
+          "title": "Lego Block 3",
+          "summary": "The core material is translucent. It feels like it is in a 3D environment."
+        },
+        {
+          "img": "https://source.unsplash.com/random/500x499",
+          "imgAlt": "Random Unsplash Img",
+          "title": "Lego Block 3",
+          "summary": "The core material is translucent. It feels like it is in a 3D environment."
+        }
+      ]
+    },
+  "lego-block-2":
+    {
+      "block":
+      [
+        {
+          "img": "https://source.unsplash.com/random/720x460",
+          "imgAlt": "Random Unsplash Img",
+          "title": "Lego Block 2",
+          "summary": "The core material is translucent. It feels like it is in a 3D environment."
+        },
+        {
+          "img": "https://source.unsplash.com/random/721x460",
+          "imgAlt": "Random Unsplash Img",
+          "title": "Lego Block 2",
+          "summary": "The core material is translucent. It feels like it is in a 3D environment."
+        }
+      ]
+    },
+  "lego-overlap-card":
+    {
+      "img": "https://source.unsplash.com/random/750x750",
+      "imgAlt": "Random Unsplash Img",
+      "watermark": "01",
+      "title": "Lego Overlap Card",
+      "summary": "There are numerous success stories you will hear about businesses making it good on the internet . The troubling thing is, there are maybe a tenfold or even a hundredfold of stories inconsistent to theirs. Many have unsuccessfully launched a business venture that is internet based but only a handful shall succeed."
+    },
+  "lego-full-img-card":
+    {
+      "img": "https://source.unsplash.com/random/1500x460",
+      "imgAlt": "Random Unsplash Img",
+      "title": "Lego Full Image Card",
+      "summary": "The core material is translucent. It feels like it is in a 3D environment. It floats along the x and y-axis, but has little to no thickness. Objects should have a sense of weightlessness and should float through space with zero friction."
+    },
+  "lego-half-img-card":
+    {
+      "img": "https://source.unsplash.com/random/700x700",
+      "imgAlt": "Random Unsplash Img",
+      "title": "Lego Half Image Card",
+      "summary": "The core material is translucent. It feels like it is in a 3D environment. It floats along the x and y-axis, but has little to no thickness. Objects should have a sense of weightlessness and should float through space with zero friction."
+    },
+  "downloads":
+    {
+      "header": "Downloads",
+      "download":
+        [
+          {
+            "fileName": "Apollo Web UI Kit - Sketch",
+            "fileSize": "0.02MB"
+          },
+          {
+            "fileName": "Apollo Icons",
+            "fileSize": "0.02MB"
+          }
+        ]
+    },
+  "lego-note":
+    {
+      "title": "Lego Note",
+      "note": "This is a note to be used to callout warnings or information."
+    }
+}

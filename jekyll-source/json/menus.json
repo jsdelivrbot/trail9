@@ -1,0 +1,261 @@
+{
+  "menus":
+  {
+    "secondary":
+    [
+      {
+          "className": "side-menu-resources",
+          "items":
+          [
+            {
+              "link": "#0",
+              "number":"02a",
+              "nameClass": "style-guide-menu",
+              "name": "Style Guide",
+              "items":
+              [
+                {
+                  "link": "/resources/style-guide/",
+                  "number":"i  ",
+                  "nameClass": "",
+                  "name": "Overview"
+                },
+                {
+                  "link": "/resources/style-guide/color",
+                  "number":"ii ",
+                  "nameClass": "color-menu",
+                  "name": "Color"
+                },
+                {
+                  "link": "/resources/style-guide/typography",
+                  "number":"iv ",
+                  "nameClass": "typography-menu",
+                  "name": "Typography"
+                },
+                {
+                  "link": "/resources/style-guide/shape-form",
+                  "number":"iii",
+                  "nameClass": "shape-form-menu",
+                  "name": "Shape & Form"
+                }
+              ]
+            },
+            {
+              "link": "#0",
+              "number":"02b",
+              "nameClass": "patterns-menu",
+              "name": "Patterns",
+              "items":
+              [
+                {
+                  "link": "/resources/patterns",
+                  "number":"i  ",
+                  "nameClass": "",
+                  "name": "Overview"
+                },
+                {
+                  "link": "/resources/patterns/input",
+                  "number":"ii ",
+                  "nameClass": "input-menu",
+                  "name": "Getting Input"
+                },
+                {
+                  "link": "/resources/patterns/navigation",
+                  "number":"iii",
+                  "nameClass": "navigation-menu",
+                  "name": "Navigation Patterns"
+                },
+                {
+                  "link": "/resources/patterns/dealing-data",
+                  "number":"iv ",
+                  "nameClass": "dealing-data-menu",
+                  "name": "Dealing with Data"
+                }
+              ]
+            },
+            {
+              "link": "#0",
+              "number":"02b",
+              "nameClass": "data-menu",
+              "name": "Data Visualization",
+              "items":
+              [
+                {
+                  "link": "/resources/data-visualization",
+                  "number":"i  ",
+                  "nameClass": "",
+                  "name": "Overview"
+                },
+                {
+                  "link": "/resources/data/guidelines",
+                  "number":"ii ",
+                  "nameClass": "guidelines-menu",
+                  "name": "General Guidelines"
+                },
+                {
+                  "link": "/resources/data/charts",
+                  "number":"iii",
+                  "nameClass": "charts-menu",
+                  "name": "Chart Types"
+                }
+              ]
+            }
+          ]
+
+      },
+      {
+        "className": "side-menu-design",
+        "items":
+        [
+          {
+            "link": "#0",
+            "number":"01a",
+            "nameClass": "principles-menu",
+            "name": "Principles"
+          },
+          {
+            "link": "#0",
+            "number":"01b",
+            "nameClass": "physics-menu",
+            "name": "Physics",
+            "items":
+            [
+              {
+                "link": "/apollo/physics",
+                "number":"i  ",
+                "nameClass": "",
+                "name": "Overview"
+              },
+              {
+                "link": "/apollo/physics/environment",
+                "number":"ii ",
+                "nameClass": "environment-menu",
+                "name": "Environment"
+              },
+              {
+                "link": "/apollo/physics/gravity",
+                "number":"iii",
+                "nameClass": "gravity-menu",
+                "name": "Gravity"
+              },
+              {
+                "link": "/apollo/physics/friction",
+                "number":"iv ",
+                "nameClass": "friction-menu",
+                "name": "Friction"
+              },
+              {
+                "link": "/apollo/physics/lighting",
+                "number":"v  ",
+                "nameClass": "lighting-menu",
+                "name": "Lighting"
+              }
+            ]
+          },
+          {
+            "link": "#0",
+            "number":"01c",
+            "nameClass": "mechanics-menu",
+            "name": "Mechanics",
+            "items":
+            [
+              {
+                "link": "/apollo/mechanics",
+                "number":"i  ",
+                "nameClass": "",
+                "name": "Overview"
+              },
+              {
+                "link": "/apollo/mechanics/material",
+                "number":"ii ",
+                "nameClass": "material-menu",
+                "name": "Material"
+              },
+              {
+                "link": "/apollo/mechanics/translucency",
+                "number":"iii",
+                "nameClass": "translucency-menu",
+                "name": "Translucency"
+              },
+              {
+                "link": "/apollo/mechanics/acceleration",
+                "number":"iv ",
+                "nameClass": "acceleration-menu",
+                "name": "Acceleration"
+              },
+              {
+                "link": "/apollo/mechanics/scale",
+                "number":"v  ",
+                "nameClass": "scale-menu",
+                "name": "Scale & Transform"
+              },
+              {
+                "link": "/apollo/mechanics/reverb",
+                "number":"vi ",
+                "nameClass": "reverb-menu",
+                "name": "Reverb"
+              },
+              {
+                "link": "/apollo/mechanics/focal-depth",
+                "number":"vii",
+                "nameClass": "focal-depth-menu",
+                "name": "Focal Depth"
+              },
+              {
+                "link": "/apollo/mechanics/parallax",
+                "number":"iix",
+                "nameClass": "parallax-menu",
+                "name": "Parallax"
+              }
+            ]
+          },
+          {
+            "link": "#0",
+            "number":"01d",
+            "nameClass": "experiences-menu",
+            "name": "Experiences",
+            "items":
+            [
+              {
+                "link": "/apollo/experiences/",
+                "number":"i ",
+                "nameClass": "experiences-data-menu",
+                "name": "Overview"
+              },
+              {
+                "link": "/apollo/experiences/changing-data",
+                "number":"ii ",
+                "nameClass": "changing-data-menu",
+                "name": "Changing Data"
+              },
+              {
+                "link": "/apollo/experiences/destroying",
+                "number":"iii",
+                "nameClass": "destroying-menu",
+                "name": "Destroying Data"
+              },
+              {
+                "link": "/apollo/experiences/empty-states",
+                "number":"iv ",
+                "nameClass": "empty-states-menu",
+                "name": "Empty States"
+              },
+              {
+                "link": "/apollo/experiences/first-use",
+                "number":"v  ",
+                "nameClass": "first-use-menu",
+                "name": "First-Use Experience"
+              },
+              {
+                "link": "/apollo/experiences/errors",
+                "number":"vi ",
+                "nameClass": "errors-menu",
+                "name": "Handling Errors"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

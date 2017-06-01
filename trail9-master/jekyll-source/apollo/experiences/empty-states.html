@@ -1,0 +1,31 @@
+---
+layout: base
+title: Apollo - Empty States
+---
+{% assign data = site.data.empty-states %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include detailed-content-header.html data=data.detailed-content-header %}
+
+  <div class="content pad-100"></div>
+
+  {% include lego-module-head.html data=data.what-is %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.no-user-data %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.cleared-data %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.empty-results %}
+
+  {% include footer.html %}
+
+</div>

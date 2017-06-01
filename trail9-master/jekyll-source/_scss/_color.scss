@@ -1,0 +1,331 @@
+.drb-page {
+  .color-header-img {
+    
+  }
+
+  .color-name {
+    font-family: $proxima-regular !important;
+    margin-bottom: 10px !important;
+    color: $neutral-dark !important;
+  }
+
+  .color-chart {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+      div {
+        padding: 8px 10px 8px 5px;
+          p, h4 {
+              margin: 0;
+              font-size: 14px;
+              padding-left: 10px;
+              text-transform: uppercase;
+              font-family: $proxima-regular;
+              line-height: 24px;
+              color: white !important;
+          }
+      }
+  }
+
+  .atmosphere {
+      .color-1 {
+          background-color: $atmosphere;
+      }
+      .color-2 {
+          background-color: $atmosphere-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $atmosphere-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $atmosphere-dark;
+      }
+      .color-5 {
+          background-color: $atmosphere-darker;
+      }
+      .color-6 {
+          background-color: $atmosphere-darkest;
+      }
+  }
+  .blue {
+      .color-1 {
+          background-color: $blue;
+      }
+      .color-2 {
+          background-color: $blue-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $blue-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $blue-dark;
+      }
+      .color-5 {
+          background-color: $blue-darker;
+      }
+      .color-6 {
+          background-color: $blue-darkest;
+      }
+  }
+  .teal {
+      .color-1 {
+          background-color: $teal;
+      }
+      .color-2 {
+          background-color: $teal-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $teal-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $teal-dark;
+      }
+      .color-5 {
+          background-color: $teal-darker;
+      }
+      .color-6 {
+          background-color: $teal-darkest;
+      }
+  }
+
+  .gray {
+      .color-1 {
+          background-color: $charcoal;
+      }
+      .color-2 {
+          background-color: $charcoal-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $charcoal-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $charcoal-dark;
+      }
+      .color-5 {
+          background-color: $charcoal-darker;
+      }
+      .color-6 {
+          background-color: $charcoal-darkest;
+      }
+  }
+  .light-gray {
+      .color-1 {
+          background-color: $neutral;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-2 {
+          background-color: $neutral-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $neutral-light;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $neutral-dark;
+      }
+      .color-5 {
+          background-color: $neutral-darker;
+      }
+      .color-6 {
+          background-color: $neutral-darkest;
+      }
+  }
+  .yellow {
+      .color-1 {
+          background-color: $yellow;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-2 {
+          background-color: $yellow-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $yellow-light;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $yellow-dark;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-5 {
+          background-color: $yellow-darker;
+      }
+      .color-6 {
+          background-color: $yellow-darkest;
+      }
+  }
+  .coral {
+      .color-1 {
+          background-color: $coral;
+      }
+      .color-2 {
+          background-color: $coral-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $coral-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $coral-dark;
+      }
+      .color-5 {
+          background-color: $coral-darker;
+      }
+      .color-6 {
+          background-color: #7E281D;
+      }
+  }
+  .orange {
+      .color-1 {
+          background-color: $orange;
+      }
+      .color-2 {
+          background-color: $orange-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $orange-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $orange-dark;
+      }
+      .color-5 {
+          background-color: $orange-darker;
+      }
+      .color-6 {
+        background-color: #3E250B;
+      }
+  }
+  .green {
+      .color-1 {
+          background-color: $green;
+      }
+      .color-2 {
+          background-color: $green-lighter;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-3 {
+          background-color: $green-light;
+          p {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $green-dark;
+      }
+      .color-5 {
+          background-color: $green-darker;
+      }
+      .color-6 {
+        background-color: #112E12;
+      }
+  }
+  .navy {
+      .color-1 {
+          background-color: $navy;
+      }
+      .color-2 {
+          background-color: $navy-lighter;
+      }
+      .color-3 {
+          background-color: $navy-light;
+      }
+      .color-4 {
+          background-color: $navy-dark;
+      }
+      .color-5 {
+          background-color: $navy-darker;
+      }
+  }
+  .ice-blue {
+      .color-1 {
+          background-color: $ice-blue;
+      }
+      .color-2 {
+          background-color: $ice-blue-lighter;
+      }
+      .color-3 {
+          background-color: $ice-blue-light;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $ice-blue-dark;
+      }
+      .color-5 {
+          background-color: $ice-blue-darker;
+      }
+  }
+  .aqua {
+      .color-1 {
+          background-color: $aqua;
+      }
+      .color-2 {
+          background-color: $aqua-lighter;
+      }
+      .color-3 {
+          background-color: $aqua-light;
+          p, h4 {
+              color: $charcoal !important;
+          }
+      }
+      .color-4 {
+          background-color: $aqua-dark;
+      }
+      .color-5 {
+          background-color: $aqua-darker;
+      }
+  }
+}

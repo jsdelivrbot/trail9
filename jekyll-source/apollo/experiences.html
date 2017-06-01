@@ -1,0 +1,27 @@
+---
+layout: base
+title: Apollo Experience Models
+---
+{% assign data = site.data.experiences %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include subsection-header.html data=data.subsection-header %}
+
+  <div class="content pad-75"></div>
+
+  {% include section-content.html data=data.section-content-1 %}
+
+  <div class="content pad-50"></div>
+
+  {% include section-content.html data=data.section-content-2 %}
+
+  <div class="content pad-50"></div>
+
+  {% include children-cards.html data=site.data.experiences.children-cards %}
+
+  {% include footer.html %}
+
+</div>

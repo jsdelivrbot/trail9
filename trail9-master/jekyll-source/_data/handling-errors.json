@@ -1,0 +1,61 @@
+{
+  "left-panel":
+  {
+    "bgImg": "https://source.unsplash.com/random/1200x4800",
+    "bgImgAlt": "Random UnSplash Img",
+    "headerLink": "/apollo",
+    "siteSection": "The Design of Apollo",
+    "pageTitle": "Handling Errors",
+    "pageSummary": "Alerting the user without being dramatic.",
+    "prevLink": "../first-use",
+    "prevPage": "First Use Experience",
+    "nextLink": "/resources",
+    "nextPage": "Resources"
+  },
+  "detailed-content-header" :
+    {
+      "headline": "Handling Errors",
+      "tagline": "Sometimes Things Go Wrong",
+      "summary": "<h3>In his book Designing Products People Love, Scott Hurff makes the following observation:</h3>
+      <blockquote class=\"blockquote\">
+        <h3>The error state is such a widespread occurrence, and one of the least-desirable states for which to design. If you put as much care into this state as you do into the rest of your UI, your product will be infinitely more joyful to use — and, more helpful, as you’ll have thought through common customer pitfalls and solved them in advance.</h3>
+      </blockquote>",
+      "headerImg": "https://source.unsplash.com/random/219x325",
+      "headerImgAlt": "Random Unsplash Img",
+      "contentList": [
+        {
+          "id": "alertUser",
+          "name": "Alert the User"
+        },
+        {
+          "id": "resolveErrors",
+          "name": "Resolve Errors"
+        },
+        {
+          "id": "preserveData",
+          "name": "Preserve Data"
+        }
+      ]
+    },
+  "alert-user":
+    {
+      "id": "alertUser",
+      "title": "Alert the User",
+      "summary": "Effective error messages are informative without being dramatic. The point of an error message is to point the user toward resolution without creating shock, fear, and confusion. Consider the users of your products, and only include technical details (such as numeric error codes) when relevant for diagnosis or troubleshooting."
+    },
+  "resolve-errors":
+    {
+      "id": "resolveErrors",
+      "title": "Resolve Errors",
+      "summary": "Error messages should include concise, specific directions about what to do next."
+    },
+  "preserve-data":
+    {
+      "id": "preserveData",
+      "title": "Preserve Data",
+      "summary": "
+          <p>There is a great quote from Jef Raskin, designer of the original Macintosh at Apple, and author of <em>The Humane Interface</em>. He writes:</p>
+          <blockquote class='blockquote'><h3>“The system should treat all user input as sacred and—to paraphrase Asimov’s first law of robotics, ‘A robot shall not harm a human, or, through inaction, allow a human to come to harm.’ The first law of interface design should be: A computer shall not harm your work or, through inaction, allow your work to come to harm.”</h3></blockquote>
+        "
+    }
+}

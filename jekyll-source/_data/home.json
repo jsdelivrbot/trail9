@@ -1,0 +1,76 @@
+{
+  "main-menu":
+    {
+      "class": "main-menu",
+      "items":
+      [
+        {
+          "link": "./apollo",
+          "number":"01",
+          "name": "The Design of Apollo",
+          "summary": "Communicating rich data in weightless environments that allow easy exploration with seamless balance."
+        },
+        {
+          "link": "#0",
+          "number":"02",
+          "name": "Thought Leadership",
+          "summary": "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed."
+        },
+        {
+          "link": "#0",
+          "number":"03",
+          "name": "IMS Health Brand",
+          "summary": "I was born in 1927, the only child of middle-class parents, both English, and themselves born in."
+        },
+        {
+          "link": "./resources",
+          "number":"04",
+          "name": "Resources",
+          "summary": "Guidelines, UI toolkits, and digital assets that bring Apollo to life."
+        },
+        {
+          "link": "#0",
+          "number":"05",
+          "name": "Learning Materials",
+          "summary": "On a January evening of the early seventies, Christine Nilsson was singing in Faust."
+        },
+        {
+          "link": "#0",
+          "number":"06",
+          "name": "About Us",
+          "summary": "Learn more about what we do at IMS Health Design team."
+        }
+      ]
+    },
+    "main-menu-mvp":
+      {
+        "class": "main-menu",
+        "items":
+        [
+          {
+            "link": "./apollo",
+            "number":"01",
+            "name": "Let Us Be Your Guide",
+            "summary": "A view into our services to help you into the wild digital world. Let's find a way to improve your experience. "
+          },
+           {
+            "link": "./pastwork",
+            "number":"02",
+            "name": "Previous Treks",
+            "summary": "View the journeys of previous adventures. Other pioneers have walked a similar path to what you may face."
+          },
+          {
+            "link": "./resources",
+            "number":"03",
+            "name": "Our Campfire Story",
+            "summary": "There are always obstacles to overcome and triumphs won, hear our origin story."
+          },
+           {
+            "link": "./contact",
+            "number":"04",
+            "name": "Send Us a Smoke Signal",
+            "summary": "Let's start communicating. It can be vague or specific."
+          }
+        ]
+      }
+}

@@ -1,0 +1,106 @@
+{
+  "left-panel":
+  {
+    "bgImg": "https://source.unsplash.com/random/1200x4800",
+    "bgImgAlt": "Random UnSplash Img",
+    "headerLink": "/apollo",
+    "siteSection": "The Design of Apollo",
+    "pageTitle": "Physics",
+    "pageSummary": "The basic principles that govern the virtual world of Apollo: the weightless environment and intelligent lighting that bring balance, focus, and gravity to life.",
+    "prevLink": "/apollo",
+    "prevPage": "Apollo Philosophy",
+    "nextLink": "/apollo/mechanics",
+    "nextPage": "Mechanics"
+  },
+  "subsection-header":
+  {
+    "watermark": "01b",
+    "headline": "Physics",
+    "tagline" : "The space we operate in",
+    "summary": "The Apollo environment establishes a framework for the visual identity of our brand: consistent, effective, and distinguishable. It creates a space for improved operational efficiency with a focus on the task at hand, and subtle interaction motifs that minimize visual guess-work and distractions.",
+    "img": "https://source.unsplash.com/random/750x230",
+    "imgAlt": "Random Unsplash.it Img"
+  },
+  "img-right":
+  {
+    "prop":
+    [
+      {
+        "headline": "Environment",
+        "content":
+          "<h3>The Apollo UI lives within an enclosed, clean, light, satin-metal environment. The static appearance of the background may appear white to silvery to darkened depending on the experience.</h3>
+          <table class='table settings-table'>
+            <tbody>
+              <tr>
+                <td>
+                  Ambient
+                </td>
+                <td>
+                  100%
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Diffuse
+                </td>
+                <td>
+                  75%
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Specular Intensity
+                </td>
+                <td>
+                  50%
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Specular Shininess
+                </td>
+                <td>
+                  5%
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Metal
+                </td>
+                <td>
+                  60%
+                </td>
+              </tr>
+            </tbody>
+          </table>",
+        "imgSrc": "/img/physics/environment.gif",
+        "altImg": "Apollo Environment Animation"
+      },
+      {
+        "headline": "Friction",
+        "content": "<h3>The core material feels like it is in a 3D environment. It ﬂoats ﬂuidly along, x, y, and z-axis. Objects should have a sense of weightlessness and should ﬂoat through space with zero friction.</h3>",
+        "imgSrc": "/img/physics/friction.gif",
+        "altImg": "Apollo Friction Animation"
+      },
+      {
+        "headline": "Gravity",
+        "content":
+          "<h3>Some elements have a subtle appearance of steady levitation. This is conveyed through lighting and shadows.</h3>
+          <ul>
+            <li>Min. space between element and background is 50px</li>
+            <li>There may be expressions where the z-axis is inﬁnite but in those cases, pay attention to the depth of ﬁeld speciﬁcations</li>
+            <li><em>There should never be any bounce</em></li>
+            <li><em>There can be very subtle hovering that is slow and steady</em></li>
+          </ul>",
+        "imgSrc": "/img/physics/gravity.gif",
+        "altImg": "Apollo Gravity Animation"
+      },
+      {
+        "headline": "Lighting",
+        "content": "<h3>Describes the inﬂuence of perceived height/spaciousness. High ceilings encourage abstract thinking and low/darkness encourage concrete thinking (focus on detail).</h3>",
+        "imgSrc": "/img/physics/lighting.gif",
+        "altImg": "Apollo Lighting Animation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "left-panel":
+    {
+      "bgImg": "https://source.unsplash.com/random/1200x4800",
+      "bgImgAlt": "Random UnSplash Img",
+      "headerLink": "/apollo",
+      "siteSection": "The Design of Apollo",
+      "pageTitle": "Mechanics",
+      "pageSummary": "The fundamental elements of Apollo, and how they create balance, focus, and gravity for user interfaces.",
+      "prevLink": "/apollo/physics",
+      "prevPage": "Physics",
+      "nextLink": "/apollo/experiences",
+      "nextPage": "Experience Modules"
+    },
+  "subsection-header":
+  {
+    "watermark": "01c",
+    "headline": "Mechanics",
+    "tagline" : "Subtle interaction motifs",
+    "summary": "Interactive elements in Apollo utilize fluid motions that give a sense of weightlessness to actions and transitions. Even in data-heavy environments, we aim for clear interfaces that inform and delight the user.",
+    "img": "https://source.unsplash.com/random/750x230",
+    "imgAlt": "Random Unsplash.it Img"
+  },
+  "img-right":
+  {
+    "prop":
+    [
+      {
+        "headline": "Focal Depth",
+        "content": "<h3>Elements along the z-axis use shortened focal depth to draw attention to the object in the foreground. Elements in the background may or may not have a subtle blur eﬀect.</h3>",
+        "imgSrc": "/img/mechanics/focaldepth.gif",
+        "altImg": "Apollo Gravity Animation"
+      },
+      {
+        "headline": "Material",
+        "content": "<h3>The core material feels like it is in a 3D environment. It ﬂoats ﬂuidly along, x, y, and z-axis. Objects should have a sense of weightlessness and should ﬂoat through space with zero friction.</h3>",
+        "imgSrc": "/img/mechanics/material.gif",
+        "altImg": "Apollo Material Animation"
+      },
+      {
+        "headline": "Reverb",
+        "content":
+          "<h3>Short, light, quick ripples from a circular shape convey a signal sent or a reaction that is about to take place such as launching a menu overlay.</h3>
+          <ul>
+            <li>Line weight 2px</li>
+            <li>Ripple circle: 120%</li>
+            <li>Ripple line: 1px, 70% opacity</li>
+          </ul>",
+        "imgSrc": "/img/mechanics/reverb.gif",
+        "altImg": "Apollo Reverb Animation"
+      },
+      {
+        "headline": "Position & Rotation",
+        "content":
+        "<h3>Elements that change position, transform or rotate should use a curve that eases in, speeds up a little, and slows down.</h3>
+          <ul>
+            <li>There should never be any bounce at the end</li>
+          </ul>",
+        "imgSrc": "/img/mechanics/easeinout.gif",
+        "altImg": "Apollo Position & Rotation Animation"
+      },
+      {
+        "headline": "Scale & Transform",
+        "content":
+          "<h3>Elements that scale up, down, or transform should use a curve that eases out.</h3>
+          <ul>
+            <li>There should never be any bounce at the end</li>
+          </ul>",
+        "imgSrc": "/img/mechanics/easeout.gif",
+        "altImg": "Apollo Scale & Transform Animation"
+      },
+      {
+        "headline": "Translucency",
+        "content":
+          "<h3>To reinforce the weightless quality of elements, some items closer to the camera/on top may have a translucent quality to them. The recommendation is to apply a just enough opacity so that when transitions occur, it has a more dramatic eﬀect.</h3>
+          <ul>
+            <li>Tile elements are 80%-90% opacity</li>
+            <li>We see reﬂected light and shadow cast from it</li>
+          </ul>",
+        "imgSrc": "/img/mechanics/translucency.gif",
+        "altImg": "Apollo Translucency Animation"
+      }
+    ]
+  }
+}

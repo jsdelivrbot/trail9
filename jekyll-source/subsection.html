@@ -1,0 +1,23 @@
+---
+layout: base
+title: Apollo - IMS Design Resource Base
+---
+{% assign data = site.data.subsection %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include subsection-header.html data=data.subsection-header %}
+
+  <div class="content pad-100"></div>
+
+  {% include section-content.html data=data.section-content %}
+
+  <div class="content pad-50"></div>
+
+  {% include children-cards.html data=data.children-cards %}
+
+  {% include footer.html %}
+
+</div>

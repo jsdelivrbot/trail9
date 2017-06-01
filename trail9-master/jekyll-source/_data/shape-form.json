@@ -1,0 +1,15 @@
+{
+  "left-panel":
+  {
+    "bgImg": "https://source.unsplash.com/random/1200x4800",
+    "bgImgAlt": "Random UnSplash Img",
+    "headerLink": "/apollo",
+    "siteSection": "The Design of Apollo",
+    "pageTitle": "Shape & Form",
+    "pageSummary": "We have an infinite amount to learn both from nature and from each other.",
+    "prevLink": "../typography",
+    "prevPage": "Typography",
+    "nextLink": "/resources",
+    "nextPage": "Resources & Assets"
+  }
+}

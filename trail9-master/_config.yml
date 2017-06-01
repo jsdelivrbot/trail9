@@ -1,0 +1,12 @@
+# Site settings
+source:         jekyll-source
+
+title:          Trail 9
+description:    Outdoors Digital Agency
+permalink:      pretty
+markdown:       kramdown
+highlighter:    rouge
+exclude:        ['node_modules', 'dist', 'gulpfile.js', 'package.json', '.gitignore']
+
+kramdown:
+  auto_ids:     true

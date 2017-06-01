@@ -1,0 +1,120 @@
+{
+  "left-panel":
+  {
+    "bgImg": "https://source.unsplash.com/random/1200x4800",
+    "bgImgAlt": "Random UnSplash Img",
+    "headerLink": "/apollo",
+    "siteSection": "The Design of Apollo",
+    "pageTitle": "Empty States",
+    "pageSummary": "Giving the user something to do when there is no content to show.",
+    "prevLink": "../destroying",
+    "prevPage": "Destroying Data",
+    "nextLink": "/apollo/experiences/first-use",
+    "nextPage": "First-Use Experiences"
+  },
+  "detailed-content-header" :
+    {
+      "headline": "Empty States",
+      "tagline": "What to do when there is nothing to show",
+      "summary": "Design with empty states in mind: if they are an afterthought, it may result in an overwhelming user experience or a cold, impersonal one. A thoughtful empty state experience will help the user with guidance, or congratulate them on completing their task.",
+      "headerImg": "https://source.unsplash.com/random/219x325",
+      "headerImgAlt": "Random Unsplash Img",
+      "contentList": [
+        {
+          "id": "whatIs",
+          "name": "What is an Empty State?"
+        },
+        {
+          "id": "noUserData",
+          "name": "No User Data"
+        },
+        {
+          "id": "clearedData",
+          "name": "Cleared Data"
+        },
+        {
+          "id": "emptyResults",
+          "name": "Empty Results"
+        }
+      ]
+    },
+  "what-is":
+    {
+      "id": "whatIs",
+      "title": "What is an Empty State?",
+      "summary": "<p>
+        The empty state happens when there is no data to populate a display; it is sometimes known as the empty list experience. Outside of error conditions, the empty state typically happens for one of three reasons:
+      </p>
+      <ol>
+        <li>The user has not created any data</li>
+        <li>The user has cleared all data</li>
+        <li>The user's request returned an empty set of results</li>
+      </ol>
+      <p>
+        The goal is to comfort, guide, or encourage users when there is no content to show. Users need to feel reassured that we are going to help them use the product and be successful in their tasks. The idea is to give the user something to do, by rewarding them for fulfilling the primary call to action of the interface: creating or clearing data.
+      </p>"
+    },
+  "no-user-data":
+    {
+      "id": "noUserData",
+      "title": "The user has not created any data",
+      "summary": "
+        <p>Users will encounter an empty state any time they visit a view before there is data to populate it. This may be part of the first use experience, or it may be the result of creating new, blank, data elements. The empty state is an opportunity to educate the user, and encourage them to create something.</p>
+        <p>If the primary call to action in an empty state is the creation of new data, the interface should answer the following questions:</p>
+        <ul>
+          <li>What will appear in this interface when data is available?</li>
+          <li>What is the purpose of this interface?</li>
+          <li>How do I add data?</li>
+        </ul>
+        <p>Consider the following examples as you design an effective user experience.</p>
+        <p><em>More helpful</em></p>
+        <ul>
+          <li>Segments will appear here</li>
+          <li>Segments are lists of contacts filtered by criteria you specify.</li>
+          <li>Example segment</li>
+          <li>Add a segment</li>
+        </ul>
+        <p><em>Less helpful</em></p>
+        <ul>
+          <li>0 segments</li>
+        </ul>
+      "
+    },
+  "cleared-data":
+    {
+      "id": "clearedData",
+      "title": "The user has cleared all the data",
+      "summary": "
+        <p>There are cases where the primary call to action is the elimination of data. For example, when a user views a list of pending approvals, the goal is to get the list to zero. Other examples include reading all notifications, completion of all background tasks, or the emptying of an outbound message queue.</p>
+        <p>These sort of empty states can be used to reward the users, and encourage them to take the next appropriate action in a workflow. For example, if all the background processing on a set of reports is done, encourage them to read the reports. A user who is clearing data is a user who’s engaged with the product. If the next step in a workflow is obvious, keep the user engaged by showing them the next step: don’t make the user think about what they have to do next.</p>
+        <p><em>More helpful</em></p>
+        <ul>
+          <li>No approvals need your attention. View status on recent approvals</li>
+        </ul>
+        <p><em>Less helpful</em></p>
+        <ul>
+          <li>0 approvals</li>
+        </ul>
+      "
+    },
+  "empty-results":
+    {
+      "id": "emptyResults",
+      "title": "The user's request returned an empty set of results",
+      "summary": "
+        <p>When a user is searching for something, or filtering a set of results, there is always a chance that they won’t find what they’re looking for. These scenarios are amazing opportunities to infer what your customer intended to find and to make intelligent suggestions.</p>
+        <p>Possible options include: taking into account misspellings and similar searches; giving the closest matching result; and highlighting which search items don’t have any matches. The point is to keep from boxing in the user: give them something they might be able to work with or suggest an alternate path.</p>
+        <p>Consider the following examples as you design an effective user experience.</p>
+        <p><em>More helpful</em></p>
+        <ul>
+          <li>No results for \"chipmonks,\" showing results for \"chipmunks\" (search for \"chipmonks\" instead)</li>
+          <li>No results for \"chipmonks\". Revise search</li>
+          <li>(when searching within a specific category): No results for \"chipmonks\" in Segments; Showing results in All Categories:</li>
+        </ul>
+        <p><em>Less helpful</em></p>
+        <ul>
+          <li>0 results</li>
+        </ul>
+      "
+    }
+}

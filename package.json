@@ -1,0 +1,24 @@
+{
+  "name": "Trail9",
+  "version": "0.1.0",
+  "description": "Outdoors Digital Agency",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { "type" : "git",
+    "url" : "git+https://github.com/theetommyt/trail9.git"
+  },
+  "author": "theetommyt",
+  "license": "MIT",
+  "devDependencies": {
+    "apollo-ui": "1.0.0-beta.3",
+    "autoprefixer": "^6.3.4",
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0"
+  }
+}

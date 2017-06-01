@@ -1,0 +1,20 @@
+<div class="content">
+  <div class="content-padding">
+    <div class="row">
+      {% for card in include.data %}
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <a href="{{ card.link }}">
+            <div class="children-card card">
+              <img src="{{ card.img-src }}" alt="" class="img-fluid">
+              <div class="children-card-header">
+                <span class="merriweather"><strong>{{ card.watermark }}</strong></span>
+                <h4 class="children-card-headline">{{ card.headline }}</h4>
+              </div>
+              <h3 class="children-card-summary merriweather">{{ card.summary }}</h3>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

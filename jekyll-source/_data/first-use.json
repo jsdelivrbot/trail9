@@ -1,0 +1,75 @@
+{
+  "left-panel":
+  {
+    "bgImg": "https://source.unsplash.com/random/1200x4800",
+    "bgImgAlt": "Random UnSplash Img",
+    "headerLink": "/apollo",
+    "siteSection": "The Design of Apollo",
+    "pageTitle": "First Use Experience",
+    "pageSummary": "<span>It takes five hundred small details to make one favorable impression.<br>
+    — Cary Grant</span>",
+    "prevLink": "../empty-states",
+    "prevPage": "Empty States",
+    "nextLink": "../errors",
+    "nextPage": "Handling Errors"
+  },
+  "detailed-content-header" :
+    {
+      "headline": "First Use Experience",
+      "tagline": "Engaging the New User",
+      "summary": "The first use experience is about creating an incredible first impression. It is how we introduce new users to our products, and introduce experienced users to new features.",
+      "headerImg": "https://source.unsplash.com/random/219x325",
+      "headerImgAlt": "Random Unsplash Img",
+      "contentList": [
+        {
+          "id": "firstImpressions",
+          "name": "First Impressions"
+        }
+      ]
+    },
+  "first-impressions":
+    {
+      "id": "firstImpressions",
+      "title": "First Impressions",
+      "summary":
+        "
+          <p>
+            The first time a user engages with one of our products, we have three primary tasks:
+          </p>
+          <ol>
+            <li>Give the user something to do</li>
+            <li>Keep the user interested</li>
+            <li>Deliver Value</li>
+          </ol>
+          <p>
+            Instead of throwing the user into the software and hoping they understand it, we should actively craft their first experience—greet users and prepare them for their first actions. The initial user experience creates a lasting impression. People are quick to form opinions when introduced to something new, especially if it is something they will have to use every day. A careful attention to detail sets expectations for future interactions, and good design of the initial experience can also result in reduced support costs and improved customer satisfaction.
+          </p>
+          <p>
+            There is a difference between <em>first use</em> and <a href='http://design.imshealth.com/apollo/experiences/empty-states/'><em>empty list</em> experiences</a>. For many users in an enterprise setting, the first use experience will be with an application already full of data. But for some users, their first use will be with a bare, empty application, devoid of data.
+          </p>
+          <p>
+            If an interface can appear to the user in an empty-list state, then it is your one shot to describe what the user will see when data exists. It’s your opportunity to encourage action, and to help them understand the value they’re going to get out of this screen. First impressions only happen once, and this is your chance to design a great one:
+          </p>
+          <ul>
+            <li>
+              Pay attention to the tone of any microcopy or UI text. Be encouraging and uplifting, and speak plainly about what to do. For example, clever or casual text like “Nothing to see here” really says nothing about what the user should expect, and it’s a bit depressing that this would be the first thing you’d see. Instead, telling the user exactly which button to click, and why they should click it, is far more helpful. Provide a clear call to action to get the user started.
+            </li>
+            <li>
+              Use the product’s content to instruct the user about what to do. For example, if the application includes notifications, the first use experience might automatically include a message in the inbox. The subject line could say “tap to open me,” while the text within the notification outlines how to manipulate or reply to the notification.
+            </li>
+            <li>
+              Offer an example of what an interface will look like in normal, everyday use. Give the user hope that they’ll achieve something similar while showing off how potentially useful your product can be. Perhaps use stand-in content so the user can visualize the product’s potential.
+            </li>
+            <li>
+              Monitor user progress and respond accordingly. If the user takes too long on a certain interface, for example, you could message them with a live chat asking if they need help.
+            </li>
+            <li>
+              Allow administrators to reset a user’s “first use” status.
+            </li>
+            <li>
+              Provide the user with prompts or instructions calling out the main capabilities of each area of the application, as they experience each area for the first time. If the user experience ushers the user along, there will be relatively few things to point out on each screen. Make the instructions dismissible.
+            </li>
+          </ul>
+        "
+    }
+}

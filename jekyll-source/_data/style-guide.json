@@ -1,0 +1,67 @@
+{
+  "left-panel":
+    {
+      "bgImg": "https://source.unsplash.com/random/1200x4800",
+      "bgImgAlt": "Random UnSplash Img",
+      "headerLink": "/resources",
+      "siteSection": "Apollo Resources",
+      "pageTitle": "Style Guide",
+      "pageSummary": "There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning",
+      "prevLink": "/resources",
+      "prevPage": "Resources",
+      "nextLink": "./color",
+      "nextPage": "Color"
+    },
+  "subsection-header":
+    {
+      "watermark": "02b",
+      "headline": "style guide",
+      "tagline" : "Apollo Styles & Resources",
+      "summary": "Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.",
+      "img": "https://source.unsplash.com/random/750x230",
+      "imgAlt": "Random Unsplash.it Img"
+    },
+  "section-content":
+    {
+      "header": "apollo resources",
+      "summary": "A design language is a form of communication that, like any other, facilitates conveyance of an intended message to an audience. Any effective communication, verbal or visual, is made up of the same building blocks: context, delivery, and expression."
+    },
+  "downloads":
+    {
+      "header": "Apollo Style Downloads",
+      "download":
+        [
+          {
+            "fileName": "Apollo Web UI Kit - Sketch",
+            "fileSize": "0.02MB"
+          },
+          {
+            "fileName": "Apollo Icons",
+            "fileSize": "0.02MB"
+          }
+        ]
+    },
+  "children-cards":  [
+    {
+      "link": "/resources/style-guide/color",
+      "img-src": "https://source.unsplash.com/random/800x501",
+      "headline": "Color",
+      "watermark": "01",
+      "summary": "Description goes here. Cool stuff about doing rad things."
+    },
+    {
+      "link": "/resources/style-guide/typography",
+      "img-src": "https://source.unsplash.com/random/800x499",
+      "headline": "Typography",
+      "watermark": "02",
+      "summary": "Description goes here. Cool stuff about doing rad things."
+    },
+    {
+      "link": "/resources/style-guide/shape-form",
+      "img-src": "https://source.unsplash.com/random/801x500",
+      "headline": "Shape & Form",
+      "watermark": "03",
+      "summary": "Description goes here. Cool stuff about doing rad things."
+    }
+  ]
+}

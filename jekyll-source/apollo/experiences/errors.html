@@ -1,0 +1,27 @@
+---
+layout: base
+title: Apollo - Handling Errors
+---
+{% assign data = site.data.handling-errors %}
+
+<div class="row">
+
+  {% include left-panel.html data=data.left-panel %}
+
+  {% include detailed-content-header.html data=data.detailed-content-header %}
+
+  <div class="content pad-100"></div>
+
+  {% include lego-module-head.html data=data.alert-user %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.resolve-errors %}
+
+  <div class="content pad-50"></div>
+
+  {% include lego-module-head.html data=data.preserve-data %}
+
+  {% include footer.html %}
+
+</div>

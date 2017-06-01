@@ -1,0 +1,259 @@
+.drb-page {
+  h1 {
+    font-size: $display1-size;
+  }
+
+
+  .home {
+    width: 66.6%;
+    height: 100vh;
+    position: relative;
+    h1,h2,h3,p,span {
+      color: white;
+    }
+    overflow: hidden;
+  }
+
+  .home-bg {
+    width: 140%;
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .home-mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  .home-tagline {
+    position: absolute;
+    bottom: 45%;
+    left: 20%;
+    font-family: 'merriweather', Georgia, serif;
+    font-style: italic;
+    h1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 0;
+      
+    }
+    h4 {
+      margin-left: 15px;
+      color: white;
+    }
+  }
+
+  .home-summary {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    padding-right: 1%;
+    padding-top: 10px;
+    text-align: right;
+    width: 35%;
+    border-right: 1px solid white;
+    text-align: right;
+    .summary-text {
+      span:first-child {
+        display: block;
+        font-size: $font-size-sm;
+        font-style: italic;
+        line-height: 12.5px;
+        font-family: $merriweather;
+      }
+      span:nth-child(2) {
+        font-weight: $font-light;
+      }
+      p:first-of-type {
+        font-size: $font-size-xs;
+        margin-top: 10px;
+        font-weight: $font-light;
+      }
+      p:last-of-type {
+        font-size: $font-size-sm;
+        font-family: $merriweather;
+        font-style: italic;
+      }
+    }
+    .summary-line {
+      hr {
+        position: absolute;
+        top: 40%;
+        left: 100%;
+        background-color: white;
+        border: none;
+        height: 1px;
+        width: 60%;
+      }
+    }
+  }
+  .home-next {
+    position: absolute;
+    bottom: 2.5%;
+    width: 100%;
+    font-weight: $font-thin;
+    span:first-child {
+      font-size: $font-size-xs;
+    }
+    a {
+      color: white;
+    }
+    .home-copyright {
+      color: rgba(255,255,255,.5);
+    }
+  }
+
+  .index-watermark {
+    top: 10%;
+    left: 64%;
+    img {
+      width: 40%;
+      opacity: .05;
+    }
+  }
+  .home-mark-diamond-plus {
+      top: 22.5%;
+      left: 75%;
+      width: 3.5%;
+      background-color: rgba(255,255,255,0);
+      & img {
+        width:100%;
+      }
+  }
+  .home-mark-plus {
+    top: 15%;
+    left: 15%;
+    width: 3%;
+    background-color: rgba(255,255,255,0);
+    & img {
+      width:100%;
+    }
+  }
+  .home-mark-half-box-1 {
+    top: 50%;
+    left: 10%;
+    width: 3%;
+    background-color: rgba(255,255,255,0);
+    & img {
+      width:100%;
+    }
+  }
+  .home-mark-half-box-2 {
+      top: 70%;
+      left: 40%;
+      width: 3.5%;
+      background-color: rgba(255,255,255,0);
+      & img {
+        width:100%;
+        transform: rotate(180deg);
+        filter: saturate(500%);
+      }
+  }
+
+  @media (max-width: 1200px) {
+    .home-bg {
+      width: 220%;
+      left: -70%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .home-bg {
+      width: 300% !important;
+      left: -180% !important;
+    }
+    .home {
+      width: 100%;
+      .home-tagline {
+        margin-top: 35%;
+        span {
+          font-size: $font-size-base;
+          padding-left: 15%;
+          font-style: italic;
+        }
+        h1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          font-size: $display3-size;
+          span{
+            padding: 0px;
+            font-style: italic;
+          }
+        }
+      }
+      .home-tagline {
+        top: 20%;
+      }
+      .home-summary {
+        top:65%;
+        height: 8.5%;
+        padding-top: 0;
+        .summary-text p{
+          display: none;
+        }
+        .summary-line {
+          hr {
+            top: 20%
+          }
+        }
+      }
+      .home-copyright {
+        display: none;
+      }
+      .home-mobile-menu {
+        display: block !important;
+        z-index: 1000;
+      }
+    }
+
+    .home-bg {
+      position: absolute;
+      top: 0;
+      left: -20px;
+      width: 150%;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .home-tagline {
+      span {
+        padding-left: 12.5%;
+      }
+    }
+    .home-summary {
+      bottom: 10%;
+      .summary-text {
+        span:first-child {
+          font-size: $font-size-lg;
+        }
+        span:nth-child(2) {
+          font-size: $font-size-lg;
+        }
+        p {
+          font-size: $font-size-lg;
+          margin-top: 15px;
+        }
+      }
+    }
+    .home-next {
+      .home-copyright {
+        color: rgba(255,255,255,.5);
+      }
+      div:last-child {
+        span {
+          font-size: $font-size-lg;
+        }
+      }
+    }
+  }
+
+}

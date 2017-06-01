@@ -1,0 +1,115 @@
+.drb-page {
+
+  .section-header {
+    width: 100%;
+    margin-top: 84px;
+    padding-bottom: 22%;
+  }
+
+  .section-headline {
+    span:first-child {
+      font-size: 12px;
+      font-family: 'proximanova-semibold', Georgia, sans-serif;
+      font-weight: $font-semi-bold;
+      color: #2b3947;
+      z-index: 100;
+      background-color: #f1f1f1;
+      padding-right: 20px;
+    }
+    hr {
+      width: 100%;
+      margin-right: 0;
+      margin-top: -11px;
+      padding-top: 0;
+      background-color: #47dbd5;
+      height: 1px;
+      border: none;
+      z-index: 0;
+    }
+  }
+
+  .section-head-title {
+    margin-top: 36px;
+    margin-bottom: 60px;
+  }
+
+  .section-head-tagline {
+    margin-bottom: 50px;
+  }
+
+  .section-quote-module {
+    position: relative;
+    margin-top: -25%;
+    margin-bottom: -10%;
+  }
+
+  .section-quote {
+    padding: 8% 0%;
+    .quote-box {
+      padding: 60px 43px 60px 40px;
+      height: 60%;
+      background-color: white;
+      z-index: 500;
+      width: 50%;
+      position: absolute;
+      top: 20%;
+      bottom: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+      hr {
+        background-color: $teal;
+        height: 2px;
+        border: none;
+        width: 15%;
+        position: absolute;
+        left: 40px;
+        top: 70%;
+      }
+    }
+    .quote-img {
+      z-index: 400;
+      position: absolute;
+      right: 0;
+      height: 100%;
+    }
+  }
+
+  .section-content-header {
+    margin-bottom: 40px;
+    h4 {
+      padding-right: 20px;
+      background-color: white !important;
+      z-index: 100;
+      display: inline-block;
+    }
+    hr {
+      width: 90%;
+      margin-right: 0;
+      margin-top: -17px;
+      padding-top: 0;
+      background-color: #47dbd5;
+      height: 1px;
+      border: none;
+      z-index: 0;
+    }
+  }
+
+  .section-watermark {
+    top: 40px;
+    right: -53px;
+    position: absolute !important;
+    h1 {
+      font-size: 288px !important;
+      color: rgba(0,0,0,.05) !important;
+      font-weight: 300;
+    }
+  }
+
+}
