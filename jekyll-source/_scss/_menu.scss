@@ -7,7 +7,7 @@
     background-color: $charcoal-dark;
     padding: 0;
     width: 33.4%;
-    z-index: 1000;
+    // z-index: 1000;
     height: 100vh;
     position: relative;
     display: flex;
@@ -53,8 +53,6 @@
     height: 100%;
     .menu-item {
       list-style-type: none;
-      transition: all $transition-medium;
-      background-color: $charcoal-dark;
       width: 100%;
       padding: 10%;
       hr {
@@ -67,6 +65,7 @@
         font-weight: bold;
         color: white;
         transition: all $transition-fast;
+        z-index: 1500;
       }
       .main-hr hr {
         display: inline-block;
@@ -80,6 +79,7 @@
         color: $charcoal-lighter;
         font-family: 'merriweather', Georgia, serif;
         transition: all $transition-fast;
+        z-index: 1500;
       }
       .menu-item-summary {
         margin: 1% 20% 1% 30%;
@@ -88,6 +88,7 @@
         font-weight: $font-light;
         color: white;
         opacity: .9;
+        z-index: 1500;
       }
     }
 

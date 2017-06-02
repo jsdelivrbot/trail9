@@ -65,12 +65,6 @@
             "name": "Our Campfire Story",
             "summary": "There are always obstacles to overcome and triumphs won, hear our origin story."
           },
-           {
-            "link": "./contact",
-            "number":"04",
-            "name": "Send Us a Smoke Signal",
-            "summary": "Let's start communicating. It can be vague or specific."
-          }
         ]
       }
 }
