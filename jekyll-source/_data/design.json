@@ -1,16 +1,16 @@
 {
   "left-panel":
     {
-      "bgImg": "/img/design/earth-lights.jpg",
-      "bgImgAlt": "Earth Orbit",
+      "bgImg": "/img/design/campfire.jpg",
+      "bgImgAlt": "Campfire",
       "headerLink": "/apollo",
-      "siteSection": "The Design of Apollo",
-      "pageTitle": "Apollo Philosophy",
-      "pageSummary": "A design language is a form of communication that, like any other, facilitates conveyance of an intended message to an audience.",
+      "siteSection": "Our Story",
+      "pageTitle": "Campfire Tales",
+      "pageSummary": "Every great adventure has an origin story, this is ours.",
       "prevLink": "/",
       "prevPage": "Home",
       "nextLink": "./physics",
-      "nextPage": "Physics"
+      "nextPage": "Your Guide"
     },
 
   "children-cards":  [
@@ -40,8 +40,8 @@
   {
     "watermark": "01",
     "ptX": "Pt 01",
-    "title": "INTRODUCING APOLLO",
-    "tagline": "While Apollo hovered over the moon, it broke ground collecting unique data in a weightless environment. Think of our new design language as a North Star.",
+    "title": "WHERE WE CAME FROM",
+    "tagline": "We set out to create a guide through the digital world as a sherpa would on Everest. The sherpa has been on the path before, but it is still your journey.",
     "summary": "Apollo is our new design language at IMS Health. It represents weightless conversation better than the Apollo orbiter? While we cannot walk every step of your journey with you, it is our sincere desire to layout principles that guide the direction of your odyssey.",
     "quote": "Tone of voice, eye contact, even gestures, all play a part in creating the personality of the message.",
     "quoteImg": "https://source.unsplash.com/random/800x502",
