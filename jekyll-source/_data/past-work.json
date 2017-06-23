@@ -1,0 +1,46 @@
+{
+  "left-panel":
+  {
+    "bgImg": "/img/resources/resources-bg.jpg",
+    "bgImgAlt": "Library Wall of Books",
+    "headerLink": "/apollo",
+    "siteSection": "Apollo Resources",
+    "pageTitle": "Previous Treks",
+    "pageSummary": "A comprehensive, thoughtful, flexible, and state-of- the-art set of guidelines, toolkits, and digital assets that bring Apollo to life.",
+    "prevLink": "/",
+    "prevPage": "Home",
+    "nextLink": "./style-guide",
+    "nextPage": "Style Guide"
+  },
+  "children-cards":  [
+    {
+      "link": "/resources/style-guide/",
+      "img-src": "https://source.unsplash.com/random/800x501",
+      "headline": "Style Guide",
+      "watermark": "01",
+      "summary": "The Apollo design system for visual design."
+    },
+    {
+      "link": "http://stage.design.imshealth.com/resources/interfaces/components/",
+      "img-src": "https://source.unsplash.com/random/800x499",
+      "headline": "components",
+      "watermark": "03",
+      "summary": "UI Kits and reference documentation."
+    }
+  ],
+  "section-header":
+  {
+    "watermark": "02",
+    "ptX": "Pt 02",
+    "title": "APOLLO RESOURCES & ASSETS",
+    "tagline": "A New Type of Design Language",
+    "summary": "Any effective design language is a form of communication that, like any other, facilitates conveyance of an intended message to an audience. Any effective communication, verbal or visual, is made up of the same building blocks: context, delivery, and expression. Imagine an American in the streets of Paris attempting to communicate to a Parisian. Context of the French language allows for correct sentence structure and proper use of genderized objects. But, even with context, articulation can fail without proper delivery. Pronunciation of vowels, sentence flow, and form, all work together to deliver context accurately. An example of visual expression is the growing use of emoji icons in text messaging. Emojis enrich conversation by conveying a message and creating opportunity for individual expression.",
+    "quote": "Tone of voice, eye contact, even gestures, all play a part in creating the personality of the message.",
+    "quoteImg": "https://source.unsplash.com/random/800x502",
+    "quoteImgAlt": "Unsplash.it random image"
+  },
+  "section-content": {
+    "header": "resources information",
+    "summary": "A design language is a form of communication that, like any other, facilitates conveyance of an intended message to an audience. Any effective communication, verbal or visual, is made up of the same building blocks: context, delivery, and expression."
+  }
+}

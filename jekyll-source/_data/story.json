@@ -1,0 +1,53 @@
+{
+  "left-panel":
+    {
+      "bgImg": "/img/story/campfire.jpg",
+      "bgImgAlt": "Campfire",
+      "headerLink": "/our-story",
+      "siteSection": "Our Story",
+      "pageTitle": "Campfire Tales",
+      "pageSummary": "Every great adventure has an origin story, this is ours.",
+      "prevLink": "/",
+      "prevPage": "Home",
+      "nextLink": "./who-we-are",
+      "nextPage": "Who We Are"
+    },
+  "section-header":
+  {
+    "watermark": "01",
+    "ptX": "Pt 01",
+    "title": "WHERE WE CAME FROM",
+    "tagline": "A single step became a tribe in the wilderness",
+    "summary": "Man braid cloud bread vexillologist church-key meditation, locavore cray offal. Lumbersexual selfies polaroid succulents wolf, synth trust fund before they sold out offal swag. Dreamcatcher waistcoat sriracha, succulents cray truffaut put a bird on it quinoa vexillologist disrupt drinking vinegar celiac keytar church-key locavore.",
+    "quote": "I go to nature every day for inspiration in the day’s work.",
+    "quoteImg": "https://source.unsplash.com/random/800x502",
+    "quoteImgAlt": "Unsplash.it random image"
+  },
+  "section-content": {
+    "header": "Purpose and Meaning",
+    "summary": "Irony chambray live-edge bicycle rights photo booth. Helvetica readymade direct trade intelligentsia narwhal you probably haven't heard of them ramps quinoa paleo sriracha small batch street art. Lomo salvia DIY ennui activated charcoal godard gentrify ethical. Kinfolk iPhone iceland wolf, offal forage cornhole beard lomo subway tile narwhal. Yuccie keffiyeh gastropub, cronut snackwave man bun swag cray typewriter hot chicken chambray gentrify microdosing retro readymade. Ethical sustainable tumeric neutra poke unicorn air plant vice shaman yr."
+  },
+  "children-cards":  [
+    {
+      "link": "/our-story/who-we-are",
+      "img-src": "https://source.unsplash.com/random/400x250",
+      "headline": "who we are",
+      "watermark": "01",
+      "summary": "The people behind the story."
+    },
+    {
+      "link": "/our-story/influences",
+      "img-src": "https://source.unsplash.com/random/800x500",
+      "headline": "Influences",
+      "watermark": "02",
+      "summary": "Inspiration is everywhere."
+    },
+    {
+      "link": "our-story/contact",
+      "img-src": "https://source.unsplash.com/random/1600x1000",
+      "headline": "Drop a Line",
+      "watermark": "03",
+      "summary": "Let's talk and be groovy."
+    }
+  ]
+}
