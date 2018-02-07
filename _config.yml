@@ -1,8 +1,8 @@
 # Site settings
 source:         jekyll-source
 
-title:          Trail 9
-description:    Outdoors Digital Agency
+title:          Design Resource Base
+description:    IMS Health
 permalink:      pretty
 markdown:       kramdown
 highlighter:    rouge

@@ -1,27 +1,21 @@
 {
   "main-menu-mvp":
+ {   
+  "class": "main-menu",
+  "items":
+  [
     {
-      "class": "main-menu",
-      "items":
-      [
-        {
-          "link": "./our-story",
-          "number":"01",
-          "name": "Our Campfire Story",
-          "summary": "There are always obstacles to overcome and triumphs won, hear our origin story."
-        },
-        {
-          "link": "./services",
-          "number":"02",
-          "name": "Let Us Be Your Guide",
-          "summary": "A view into our services to help you into the wild digital world. Let's find a way to improve your experience. "
-        },
-        {
-        "link": "./past-work",
-        "number":"03",
-        "name": "Previous Treks",
-        "summary": "View the journeys of previous adventures. Other pioneers have walked a similar path to what you may face."
-        }       
-      ]
+      "link": "./apollo",
+      "number":"01",
+      "name": "The Design of Apollo",
+      "summary": "Communicating rich data in weightless environments that allow easy exploration with seamless balance."
+    },
+    {
+      "link": "./resources",
+      "number":"02",
+      "name": "Resources",
+      "summary": "Guidelines, UI toolkits, and digital assets that bring Apollo to life."
     }
+  ]
+}
 }
